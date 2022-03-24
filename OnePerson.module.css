@@ -1,0 +1,29 @@
+.image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 0%;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    border-radius: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    margin-left: 5px;
+    padding: 2%;
+    width: 500px;
+}
